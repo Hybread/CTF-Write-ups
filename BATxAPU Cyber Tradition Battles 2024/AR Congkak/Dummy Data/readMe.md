@@ -5,7 +5,7 @@
 ## Introduction
 In the final round of the BAT’s Cyber-Traditional Battle 2024, there were 3 questions and each team received one of the three following questions to solve overnight: Dummy Data, Colorful Design, and B-A-T cipher. My team, nas1g3puk, received Dummy Data, which I managed to solve. These questions were to be solved in 12 hours overnight and each question was worth 80 points as they were all under the ‘hard’ difficulty but, the first team to solve their question would receive 100 points.
 My leader received a message which contained a hint and a link that was directed to a google form which contained a .zip file of the challenge:
-![Screenshot 2025-03-23 032024](https://github.com/user-attachments/assets/15e412d0-d4a1-4b34-afd1-c97d10ed9ebb)
+![image](https://github.com/user-attachments/assets/f0cfb1d4-c860-4969-96e8-476e2f223dac)
 
 First, after downloading the zip file provided we find 2 files inside to be extracted:
 ![Screenshot 2025-03-23 032159](https://github.com/user-attachments/assets/3a72fad1-6608-4da3-a2f0-ab12329708f7)
