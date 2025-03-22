@@ -131,6 +131,7 @@ Now that we have restored our missing variables, we can finally run the script a
 The output seems to be a Google Drive folder but the first few texts are messed up so we’ll have to manually alter it and we end up with:
 [drive.google.com/drive/folders/10duyyMEJ5GvWiYWPR1abnDko2YbgkI2T?usp=sharing](drive.google.com/drive/folders/10duyyMEJ5GvWiYWPR1abnDko2YbgkI2T?usp=sharing)
 
+
 Plug that into our search engine and we find a zip file named ‘the\_flag’:
 ![image](https://github.com/user-attachments/assets/c4db98bd-030c-4a83-8cac-34fc11768e14)
 
