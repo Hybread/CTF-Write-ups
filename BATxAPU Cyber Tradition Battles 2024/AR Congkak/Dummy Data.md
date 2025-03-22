@@ -1,8 +1,8 @@
-#Dummy Data
+# Dummy Data
 
 ---
 
-##Introduction
+## Introduction
 In the final round of the BAT’s Cyber-Traditional Battle 2024, there were 3 questions and each team received one of the three following questions to solve overnight: Dummy Data, Colorful Design, and B-A-T cipher. My team, nas1g3puk, received Dummy Data, which I managed to solve. These questions were to be solved in 12 hours overnight and each question was worth 80 points as they were all under the ‘hard’ difficulty but, the first team to solve their question would receive 100 points.
 My leader received a message which contained a hint and a link that was directed to a google form which contained a .zip file of the challenge:
 ![Screenshot 2025-03-23 032024](https://github.com/user-attachments/assets/15e412d0-d4a1-4b34-afd1-c97d10ed9ebb)
@@ -12,11 +12,11 @@ First, after downloading the zip file provided we find 2 files inside to be extr
 
 ---
 
-##Solve
+## Solve
 Now we have these two files ‘Decryption.java’ and ‘dummy data.hprof’. Since it was my first time participating in a CTF competition, I had no clue for a lot of the earlier questions, let alone what a .hprof file was. So, I had to do some searching on google and stumbled onto a Now I knew that it was a java memory dump file, I had to find a proper tool to open the file and analyze it. After some searching I decided to go with Memory Analyzer (MAT) created by the Eclipse Foundation.
 Before analyzing the .hprof file knowing I had 0 knowledge in Java memory dump analysis, I investigated the Decryption.java code first to see if I can pick out hints:
 
-###Code
+### Code
 ```java
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -166,7 +166,8 @@ There were 7 different zip files. But if we refer to the message we got in the b
 
 Scan the QR code and we get this link: 
 Enter the link and we get our “Flag”
-Flag = 
+
+## Flag
 ![image](https://github.com/user-attachments/assets/92469698-9917-4393-ac81-5c94f2d78d07)
 
 (CTF event was based around Malaysia’s Traditional Culture hence the name of the event)
