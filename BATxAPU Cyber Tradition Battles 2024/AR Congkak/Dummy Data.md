@@ -82,12 +82,14 @@ Seeing this UI for the very first time was immensely overwhelming. But the first
 I searched the internet on how to use the Memory Analyzer and found the Realizing that to filter the data from the memory heap was to use Query Language like SQL, but for Java memory dump files it’s Object Query Language.
 After this, I knew I had to input a specific command to filter for my data.
 On the top of the UI, below the ‘dummy data.hprof’ tab, click on the OQL icon to access the OQL studio to type in our commands: 
+
 ![image](https://github.com/user-attachments/assets/4c592c2c-aa52-48c9-afcc-829c408b06c5)
 
 ![image](https://github.com/user-attachments/assets/b2d83ae9-2a63-44e4-bd0d-72e39d574274)
 
 Now that I’m here my issue was that I had to come up/search for a query command to list out the data I was looking for and I did not know how to do so, so I head back to google to ask.
 At first, silly me thought that the data could’ve been within the packages that were being imported in the beginning of the java script:
+
 ![image](https://github.com/user-attachments/assets/a025f775-f22e-47df-86e4-1b8e9f7c216c)
 
 And because I was very lost, I tried seeking help from some AI tools like ChatGPT to come up with a query command for me to use and it gave me the following:
@@ -109,6 +111,7 @@ SELECT * FROM java.lang.String s WHERE s.toString().matches("[0-9a-fA-F]{32}") O
 ```
 
 Let’s break down this line of query command. The first half is similar to the command used earlier that ChatGPT gave me and after s.toString() I used .matches instead of .contains because we’re trying to match the number of characters of the string. ‘[0-9a-fA-F]’ is the format to filter by hex and the following {x} is the amount of characters in the hexadecimal string. Since we don’t know what type of AES encryption it is (either AES-128 or AES-256) we had to filter by 32 and 64-hexadecimal characters. Since we know that the IV is 32 characters long it is also included in this line of filtering.
+
 ![image](https://github.com/user-attachments/assets/5dd013e7-30dc-4404-b2b4-2ac6be993fc0)
 
 After running the command, we get a bunch of results, 31 to be exact. But if we look closely it seems that only the first 2 results matches what we’re looking for and the rest looking like error values, padding or uninitialized data.
@@ -162,6 +165,7 @@ Obviously, it’s missing some url formatters so I had to fix it myself and ende
 ![image](https://github.com/user-attachments/assets/29085222-6858-45d3-bd1e-7b1b72f4f38b)
 
 There were 7 different zip files. But if we refer to the message we got in the beginning, we can find that we received a ‘first’ hint along with a password. Download number\_6.zip we find a .png file but it’s password locked. Entering the password that was given in the hints we are able to extract the .png file and we get a QR code:
+
 ![image](https://github.com/user-attachments/assets/689731e7-0cda-46b9-bb7e-fadf466b8f05)
 
 Scan the QR code and we get this link: 
