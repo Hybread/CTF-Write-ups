@@ -31,9 +31,8 @@ Each directory contains:
 - **Challenge Description**: Problem statement and details.
 - **Solution**: Step-by-step explanation of the approach and solution.
 - **Flag**: The final flag obtained.
-
----
 ```
+---
 ## 🚀 How to start
 
 1. Clone the repository:
