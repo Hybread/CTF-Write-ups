@@ -33,7 +33,7 @@ Each directory contains:
 - **Flag**: The final flag obtained.
 
 ---
-
+```
 ## 🚀 How to start
 
 1. Clone the repository:
