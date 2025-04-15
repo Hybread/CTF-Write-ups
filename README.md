@@ -15,12 +15,15 @@ This repository is organized in this manner:
 
 ```
 .
+├── BATxAPU Cyber Tradition Battle 2024
+│   ├──AR Congkak
+│   └──Dummy Data
+├── My own challenges
+│   ├──SandwichThief!
+│   └──Tiny_man_trapped_in_a_computer
 ├── SKRCTF.me
 │   ├──Reverse Engineering
 │   └──Cryptography
-├── BATxAPU Cyber Tradition Battle 2024
-│   ├──AR Congkak
-│    └──Dummy Data
 └── README.md
 
 Each directory contains:
