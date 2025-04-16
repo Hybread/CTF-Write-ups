@@ -25,7 +25,7 @@ This repository is organized in this manner:
 │   ├──Reverse Engineering
 │   └──Cryptography
 ├── UMCS_Preliminary 2025
-│   ├──Reverse - Server
+│   ├──Reverse - server
 │   └──Web - straightforward
 └── README.md
 
