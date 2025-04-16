@@ -24,6 +24,9 @@ This repository is organized in this manner:
 ├── SKRCTF.me
 │   ├──Reverse Engineering
 │   └──Cryptography
+├── UMCS_Preliminary 2025
+│   ├──Reverse - Server
+│   └──Web - straightforward
 └── README.md
 
 Each directory contains:
