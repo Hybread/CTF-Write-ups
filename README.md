@@ -18,9 +18,18 @@ This repository is organized in this manner:
 ├── BATxAPU Cyber Tradition Battle 2024
 │   ├──AR Congkak
 │   └──Dummy Data
+├── ICTF 2025
+│   └──Binary Exploitation
+│      └──Intro2GDB
+│   └──Reverse Engineering
+│      ├──Baby Keep Crying For Math
+│      ├──Baby RE
+│      ├──TicTacToe
+│      └──Lucky Coin
 ├── My own challenges
-│   ├──SandwichThief!
-│   └──Tiny_man_trapped_in_a_computer
+│   ├──[Forensic] Files That Pretend
+│   ├──[Layered] SandwichThief!
+│   └──[Reverse] Tiny_man_trapped_in_a_computer
 ├── SKRCTF.me
 │   ├──Reverse Engineering
 │   └──Cryptography
