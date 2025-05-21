@@ -6,3 +6,4 @@ Anyways, enough rambling. This git directory contains the questions that I solve
 **Side note: I made a slip up and forgot to add a team name when registering, so they defaulted to the Captain's name lol**
 
 ![image](https://github.com/user-attachments/assets/d2fb47d4-1612-4d41-a8a5-bee39321ac48)
+![image](https://github.com/user-attachments/assets/b9b87634-ed78-49a4-b189-e5c54fa82666)
