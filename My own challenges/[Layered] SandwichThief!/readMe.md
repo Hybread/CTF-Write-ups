@@ -3,6 +3,8 @@ This challenge was initially made as a fun little self project to share with my 
 
 ## Update Log
 20/04/2025 - Fine tuned the challenge to be slightly more challenging. 
+
+## Challenge Details
 ```
 Category: Cryptography, Coding, Reverse Engineering, Forensics, Steganography
 Difficulty: Hard
