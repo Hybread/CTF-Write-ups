@@ -3,10 +3,8 @@ This challenge was initially made as a fun little self project to share with my 
 
 ## Update Log
 20/04/2025 - Fine tuned the challenge to be slightly more challenging. 
-
-# Categories 
-* Cryptography (Base64, Hex, Vigenere, Morse, etc.) 
-* Programming (Code patching) 
-* Reverse Engineering (static decompiler analysis, binary patching, gdb solve) 
-* Forensics (Wireshark) 
-* Steganography 
+```
+Category: Cryptography, Coding, Reverse Engineering, Forensics, Steganography
+Difficulty: Hard
+Hints: Patience is all you need!
+```
