@@ -1,6 +1,7 @@
-Beginner Reverse 5 
+# Beginner Reverse 5 
 ![image](https://github.com/user-attachments/assets/9ee99eb5-2148-471a-809f-14e5d05b46ab)
 
+## Solve
 Open the web shell and access the command given
 Open and read through the source code given:
 ```C
