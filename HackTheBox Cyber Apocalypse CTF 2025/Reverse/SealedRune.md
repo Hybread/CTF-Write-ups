@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d5e42193-2341-41e6-ad3d-fea8c81c1c80)# SealedRune
+# SealedRune
 ## Solve
 Download the given file and extract the following:
 
