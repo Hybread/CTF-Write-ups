@@ -50,6 +50,7 @@ int main () {
 We can see that the checkPassword() function has a bunch of ‘if’ loops and a whole lot of sequences/conditions within them. Let’s run them through one by one. 
 
 First, we should write down what we know just from a brief scanning through the code. Given that the password’s length must be 17 bytes and the ‘pass’ variable is in an array format let’s note the given characters down matching their indexes: 
+
 ![image](https://github.com/user-attachments/assets/6406d797-1fd8-4906-96ce-053ed968361d)
 
 The 3rd condition states that pass[1] - pass[0] = -31 and pass[1] must match pass[3]. With –31 being such a big number, we’re going to assume that its either a ASCII Decimal or Hex translation. Let’s begin the conversions into hex and decimal to figure out which one is it:
@@ -69,6 +70,7 @@ Tolower() function converts all characters into lowercase characters. With ‘r�
 - On the final loop all the characters are given with pass[12] = pass[9] of ‘_’ 
 ```
 Now let’s put it all together: 
+
 ![image](https://github.com/user-attachments/assets/9c22417a-dc6e-49a2-ad54-d966c52353c3)
 
 And we get "R3v3r51nG_1s_Fun!"
@@ -78,4 +80,5 @@ Access the web shell and put in the command given in the question and type in ou
 Flag = SKR{R3v3r51nG_1s_Fun!} 
 ```
 Written solve:
+
 ![image](https://github.com/user-attachments/assets/7df1be23-a3ee-41e4-81af-f3505c50228f)
