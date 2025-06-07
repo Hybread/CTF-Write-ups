@@ -1,6 +1,7 @@
 # Beginner Reverse 6 
 ![image](https://github.com/user-attachments/assets/566a8d32-36a6-4791-b26b-c835edcc9eb5)
 
+## Solve
 Open the source code file and read through it:
 ```C
 #include <stdio.h>
