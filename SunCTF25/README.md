@@ -14,5 +14,4 @@ I hope you'll enjoy reading my writeups on the challenges I solved!
 
 <img width="725" height="353" alt="image" src="https://github.com/user-attachments/assets/4e5084dd-ae68-400c-aac2-ba5fe195a667" />
 
-
-<img width="725" height="353" alt="image" src="https://github.com/user-attachments/assets/c600f6c7-3fc2-4e3f-b87b-bc0b947dfba7" />
+<img width="569" height="619" alt="image" src="https://github.com/user-attachments/assets/23018921-4b34-4863-b42f-cf838af16748" />
