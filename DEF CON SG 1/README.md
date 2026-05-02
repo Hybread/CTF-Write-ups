@@ -8,4 +8,4 @@ As there were many things going on such as talks, sharing sessions and official 
 
 I have prepared writeups for both said villages for the challenges that I have solved. Enjoy the read! <3
 
-<img width="1320" height="2301" alt="IMG_1751" src="https://github.com/user-attachments/assets/526927c8-1c83-4dbd-b14e-86e1870e438a" />
+<img width="461" height="638" alt="image" src="https://github.com/user-attachments/assets/3245d2da-b3c6-4ac5-93de-c3a80838597d" />
