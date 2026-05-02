@@ -1,8 +1,8 @@
 # C517 Village Writeups
 
-<img width="1485" height="720" alt="image" src="https://github.com/user-attachments/assets/bcd57b54-2ae1-43bf-8d6d-ef1e8a7d0aa2" />
-
 <img width="1105" height="609" alt="image" src="https://github.com/user-attachments/assets/d456faa5-4139-43a9-a7f7-7341e0417627" />
+
+<img width="1485" height="720" alt="image" src="https://github.com/user-attachments/assets/bcd57b54-2ae1-43bf-8d6d-ef1e8a7d0aa2" />
 
 <img width="1836" height="468" alt="image" src="https://github.com/user-attachments/assets/b647e22e-0349-4e95-be7d-88a00b857cc3" />
 
