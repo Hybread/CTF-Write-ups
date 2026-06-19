@@ -43,6 +43,7 @@ Open the new binary in IDA, we find a main function `nice()` immediately and ins
 <img width="630" height="384" alt="image" src="https://github.com/user-attachments/assets/ddbad47a-5ec1-43be-8f35-024e1dd6eb8c" />
 
 Reverse the logic and decrypt flag with a simple script.
-<Just copy this section, the array values in good[] and bad[], and send it to AI and ask it to make a decrypt script> 
+
+***<Just copy this section, the array values in good[] and bad[], and send it to AI and ask it to make a decrypt script>***
 
 `Flag = UMCS{Ap1_HaSH1n5_Pr0c3ss_Ha11owInG_D0nuT_sHellcode}`
