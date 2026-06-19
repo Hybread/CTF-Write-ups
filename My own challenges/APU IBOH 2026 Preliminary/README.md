@@ -15,3 +15,5 @@ Anyways, I hope you enjoy the read!
 _*2026 sidenote_
 To me (IMO), this was the golden age where CTFs were still fun and people didn't slop as hard as today but had AI guidance (still learning something at least) :( 
 Nowadays the two challenges in this folder can be one-shot by AI in <20 minutes.
+
+<img width="1019" height="677" alt="image" src="https://github.com/user-attachments/assets/c1a8e1c8-4ee4-4467-9eb4-742609b95aae" />
