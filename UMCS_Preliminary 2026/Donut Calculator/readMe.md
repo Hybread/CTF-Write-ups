@@ -1,4 +1,6 @@
-Donut Calculator
+# Donut Calculator
+
+## Solve
 Standard rev procedure, analyze the binary in Detect-It-Easy. DiE shows a packed section in .data. We can see the offset of the packed section as well.
 
 <img width="553" height="109" alt="image" src="https://github.com/user-attachments/assets/45de6af1-c7dd-485f-8157-19df5e45ba46" />
