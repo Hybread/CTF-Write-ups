@@ -7,6 +7,6 @@ This challenge was initially made as a fun little self project to share with my 
 ## Challenge Details
 ```
 Category: Cryptography, Coding, Reverse Engineering, Forensics, Steganography
-Difficulty: Hard
+Difficulty: Hard (in my head it was hard but revisiting after 1 year, it's quite amusing)
 Hints: Patience is all you need!
 ```
