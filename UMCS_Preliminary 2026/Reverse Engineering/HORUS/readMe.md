@@ -1,4 +1,4 @@
-<img width="1049" height="504" alt="image" src="https://github.com/user-attachments/assets/2a0e7f85-7cb3-47f3-8f0b-9e6966d36644" /><img width="603" height="372" alt="image" src="https://github.com/user-attachments/assets/18ead87e-908e-4a06-a55a-3adc6776ec42" /># HORUS
+# HORUS
 
 ## Solve
 DiE shows packed but no specific known open-source or commercial packer:
