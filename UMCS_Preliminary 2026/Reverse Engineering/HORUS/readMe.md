@@ -31,25 +31,20 @@ def stage1(path: str) -> bytes:
     pe = pefile.PE(path)
     imagebase = pe.OPTIONAL_HEADER.ImageBase
 
-
     rdata, rdata_va = find_rdata(pe)
     print(f"    .rdata size: {hex(len(rdata))}, entropy ≈ 8.0 (fully encrypted)")
-
 
     KEY_OFFSET   = 0x5BCD90   # offset in .rdata
     PAYLOAD_OFF  = 0xD0       # offset of where payload is stored
     PAYLOAD_SIZE = 0x5BCC00   # VirtualAlloc call
 
-
     key_bytes = rdata[KEY_OFFSET : KEY_OFFSET + 8]
     print(f"    RC4 key ({len(key_bytes)} bytes): {key_bytes.hex()}")
     assert key_bytes == b"\xde\xad\xbe\xef\xca\xfe\xba\xbe", "Unexpected key"
 
-
     encrypted = rdata[PAYLOAD_OFF : PAYLOAD_OFF + PAYLOAD_SIZE]
     print(f"    Decrypting {hex(PAYLOAD_SIZE)} bytes with RC4...")
     decrypted = rc4(key_bytes, encrypted)
-
 
     assert decrypted[:2] == b"MZ", "Decrypted payload is not a PE!"
     print(f"    [+] Got valid PE (MZ): .NET assembly")
@@ -81,13 +76,10 @@ Trace the calls and find the hardcoded keys, then reverse the logic to decrypt t
 import sys
 import hashlib
 
-
 CIPHER_HEX   = "037d91c01b45e9db9546f62ecf8601657a7848f04f3391d118783b227741a081e2ba87dcc2c4f0c45ab3285e248c4211c72da33be3a39e"
 EXPECTED_MD5 = "c1a708f3e14e36e388ec2f75d04ceff2"
 
-
 KEY = b"\xde\xad\xbe\xef\xca\xfe\xba\xbe"
-
 
 def rc4(key: bytes, data: bytes) -> bytes:
     S = list(range(256))
@@ -104,34 +96,25 @@ def rc4(key: bytes, data: bytes) -> bytes:
         out[k] = data[k] ^ S[(S[i] + S[j]) & 0xFF]
     return bytes(out)
 
-
 def stage2():
     print(f"[*] Key (hex)    : {KEY.hex()}")
-
 
     md5 = hashlib.md5(KEY).hexdigest()
     print(f"[*] MD5(key)     : {md5}")
     print(f"[*] Expected MD5 : {EXPECTED_MD5}")
 
-
     if md5 != EXPECTED_MD5:
         sys.exit("[-] MD5 mismatch - wrong key")
 
-
     print("[+] Key validated")
-
 
     # Decrypt
     ciphertext = bytes.fromhex(CIPHER_HEX)
     flag = rc4(KEY, ciphertext).decode()
 
-
     print(f"\n{'='*55}")
     print(f"  FLAG: {flag}")
     print(f"{'='*55}")
-
-
-
 
 if __name__ == "__main__":
     stage2()
