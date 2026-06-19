@@ -1,4 +1,6 @@
-Varsity Lake Sonata
+# Varsity Lake Sonata
+
+## Solve
 DiE shows nothing much except UPX packed binary:
 
 <img width="363" height="81" alt="image" src="https://github.com/user-attachments/assets/aacf3f50-8b67-4c28-98aa-5010a4d88945" />
